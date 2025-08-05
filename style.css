@@ -1,0 +1,25 @@
+@import url(https://fonts.google.com/share?selection.family=JetBrains+Mono:ital,wght@0,100..800;1,100..800);
+
+body{
+    font-family: "JetBrains Mono", monospace;
+}
+
+:root{
+    --cor-principal: #97c6d3;
+    --cor-secundaria: #5a6164;
+    --cor-destaque:#384dda;
+}
+
+h1, h2, h5{
+    color: white;
+    font-weight: 700;
+}
+
+footer a{
+    color: var(--cor-principal);
+    
+}
+
+footer a:hover{
+    color: var(--cor-destaque);
+}
